@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: white;
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 5px 5px 5px lightgray;
+}
+nav .left img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+nav .right ul {
+  list-style: none;
+  display: flex;
+}
+nav .right ul a {
+  text-decoration: none;
+  padding-left: 20px;
+}
+nav .right ul a:hover {
+  color: black;
+  padding: 10px 20px;
+  background-color: yellow;
+  border: 1px solid;
+}
+
+main {
+  width: 100%;
+  height: 90vh;
+  background-image: url(surf.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+main .left {
+  width: 50vw;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  height: 90vh;
+}
+@media (max-width: 576px) {
+  main .left {
+    width: 100vw;
+  }
+}
+main .left h1 {
+  width: 50%;
+  margin-bottom: 40px;
+  font-size: 50px;
+  padding-left: 70px;
+  color: white;
+}
+@media (max-width: 576px) {
+  main .left h1 {
+    padding: 0 20px;
+  }
+}
+main .left p {
+  margin-bottom: 30px;
+  padding-left: 70px;
+  color: white;
+  width: 60%;
+}
+@media (max-width: 576px) {
+  main .left p {
+    padding: 0 20px;
+  }
+}
+main .left .link a {
+  text-decoration: none;
+  color: black;
+  margin-left: 70px;
+  border: 2px solid;
+  padding: 10px 50px;
+  background-color: yellow;
+}
+@media (max-width: 576px) {
+  main .left .link a {
+    margin: 0 20px;
+    width: 100%;
+    text-align: center;
+  }
+}/*# sourceMappingURL=style.css.map */
